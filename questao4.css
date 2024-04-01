@@ -1,0 +1,26 @@
+body {
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center; 
+align-items: center; 
+height: 100vh; 
+}
+
+.circulo {
+width: 100px;
+height: 100px;
+background-color: #ff0000; 
+border-radius: 50%; 
+animation: moverParaDireita 4s linear infinite; 
+}
+
+@keyframes moverParaDireita {
+0% {
+    transform: translateX(0); 
+}
+100% {
+    transform: translateX(500px); 
+}
+}
+  
