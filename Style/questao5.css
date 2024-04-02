@@ -16,9 +16,9 @@ animation: girarQuadrado 3s linear infinite;
 
 @keyframes girarQuadrado {
 0% {
-    transform: translate(-50%, -50%) rotate(0deg); 
+    transform: rotate(0deg); 
 }
 100% {
-    transform: translate(-50%, -50%) rotate(45deg); 
+    transform: rotate(45deg); 
 }
 }
