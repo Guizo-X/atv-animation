@@ -1,0 +1,48 @@
+body {
+margin: 0;
+padding: 0;
+height: 100vh; 
+display: flex;
+justify-content: center; 
+align-items: center; 
+background-color: #f0f0f0; 
+}
+
+.logo {
+position: absolute; 
+width: 200px; 
+height: 200px; 
+top: calc(50% - 100px); 
+left: calc(50% - 100px); 
+animation: moverEscala 3s forwards; 
+}
+
+@keyframes moverEscala {
+0% {
+    top: 35%; 
+    left: 45%; 
+    width: 200px; 
+    height: 200px; 
+}
+100% {
+    top: 0; 
+    left: 0; 
+    width: 70px; 
+    height: 70px; 
+}
+}
+
+.menu {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    width: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

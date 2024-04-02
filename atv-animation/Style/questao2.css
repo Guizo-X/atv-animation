@@ -1,0 +1,34 @@
+body {
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center; /* Centraliza horizontalmente */
+align-items: center; /* Centraliza verticalmente */
+height: 100vh; /* Garante que o corpo da página ocupe toda a altura da janela do navegador */
+}
+
+.quadrado {
+width: 200px;
+height: 200px;
+background-color: #007bff; 
+transition: background-color 0.3s ease; 
+}
+
+.quadrado:hover {
+background-color: #ff6347; 
+}
+
+.menu {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    width: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,39 @@
+body {
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center; 
+align-items: center; 
+height: 100vh; 
+}
+
+.quadrado {
+width: 100px;
+height: 100px;
+background-color: #007bff; 
+animation: girarQuadrado 3s linear infinite; 
+}
+
+@keyframes girarQuadrado {
+0% {
+    transform: rotate(0deg); 
+}
+100% {
+    transform: rotate(45deg); 
+}
+}
+
+.menu {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    width: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

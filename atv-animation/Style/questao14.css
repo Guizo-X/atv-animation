@@ -1,0 +1,38 @@
+body {
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center; 
+align-items: center; 
+height: 100vh;
+background-color: #f0f0f0;
+}
+
+.elemento {
+width: 200px;
+height: 200px;
+background-color: #007bff;
+border-radius: 50%;
+transition: width 0.3s, height 0.3s;
+}
+
+.elemento:hover {
+width: 200px;
+height: 100px;
+border-radius: 0;
+}
+
+.menu {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    width: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

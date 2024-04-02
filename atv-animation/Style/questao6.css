@@ -1,0 +1,68 @@
+body {
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center; 
+align-items: center; 
+height: 100vh; 
+}
+
+.quadrado {
+width: 100px;
+height: 100px;
+background-color: blue; 
+animation: girarQuadrado 5s linear infinite; 
+}
+
+@keyframes girarQuadrado {
+0% {
+    transform: rotate(0deg); 
+}
+12.5%{
+    transform: rotate(45deg);
+    background-color: aquamarine;
+}
+25%{
+    transform: rotate(90deg);
+    background-color: gray
+}
+37.5%{
+    transform: rotate(135deg);
+    background-color: yellow
+}
+50%{
+    transform: rotate(180deg);
+    background-color: red
+}
+62.5%{
+    transform: rotate(225deg);
+    background-color: orange
+}
+75%{
+    transform: rotate(270deg);
+    background-color: brown
+}
+87.5%{
+    transform: rotate(315deg);
+    background-color: green
+}
+100%{
+    transform: rotate(360deg);
+    background-color: blue
+}
+}
+
+.menu {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    width: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
