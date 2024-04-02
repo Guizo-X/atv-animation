@@ -26,3 +26,18 @@ animation: pulsarGirar 2s infinite;
     transform: scale(1) rotate(360deg);
 }
 }
+
+.menu {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    width: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

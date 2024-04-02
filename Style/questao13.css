@@ -53,3 +53,18 @@ animation: moverCimaBaixo 4s infinite alternate 4s;
     transform: translateY(50%);
 }
 }
+
+.menu {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    width: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
