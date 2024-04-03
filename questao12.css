@@ -1,0 +1,56 @@
+body {
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: #f0f0f0;
+}
+
+.formulario {
+position: absolute;
+top: -200px;
+animation: entrar 1s forwards;
+background-color: purple;
+border: solid blue;
+}
+
+@keyframes entrar {
+0% {
+    top: -200px;
+}
+100% {
+    top: calc(50% - 150px);
+}
+}
+
+h2 {
+text-align: center;
+}
+
+form {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+input, button {
+margin: 5px;
+padding: 10px;
+}
+
+.menu {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    width: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
