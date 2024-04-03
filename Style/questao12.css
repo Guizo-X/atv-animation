@@ -12,6 +12,8 @@ background-color: #f0f0f0;
 position: absolute;
 top: -200px;
 animation: entrar 1s forwards;
+background-color: purple;
+border: solid blue;
 }
 
 @keyframes entrar {
