@@ -5,15 +5,16 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 100vh;
-background-color: #f0f0f0;
+background: linear-gradient(to top, #007bff, #000);
 }
 
 .formulario {
 position: absolute;
 top: -200px;
+background: linear-gradient(to top, #007bff, #483D8B);
+border: 1px solid black;
 animation: entrar 1s forwards;
-background-color: purple;
-border: solid blue;
+
 }
 
 @keyframes entrar {
@@ -42,8 +43,8 @@ padding: 10px;
 
 .menu {
     text-decoration: none;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     position: absolute;
     top: 0;
     left: 0;

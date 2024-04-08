@@ -12,7 +12,7 @@ width: 100px;
 height: 100px;
 background-color: #fffb00; 
 border-radius: 50%; 
-transition: background-color 0.3s ease, transform 0.3s ease; 
+transition: 0.3s ease, 0.3s ease; 
 }
 
 .circulo:hover {

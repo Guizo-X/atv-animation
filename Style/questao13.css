@@ -5,7 +5,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 100vh;
-background-color: #f0f0f0;
 }
 
 .container {
@@ -17,7 +16,7 @@ width: 100px;
 height: 100px;
 background-color: #007bff;
 margin: 0 10px; 
-animation: moverCimaBaixo 4s infinite alternate;
+animation: mover 4s infinite alternate;
 }
 
 .quadrado2{
@@ -25,7 +24,7 @@ width: 100px;
 height: 100px;
 background-color: #007bff;
 margin: 0 10px; 
-animation: moverCimaBaixo 4s infinite alternate 2s;
+animation: mover 4s infinite alternate 2s;
 }
 
 .quadrado3{
@@ -33,13 +32,13 @@ width: 100px;
 height: 100px;
 background-color: #007bff;
 margin: 0 10px; 
-animation: moverCimaBaixo 4s infinite alternate 4s;
+animation: mover 4s infinite alternate 4s;
 }
 
 
 
 
-@keyframes moverCimaBaixo {
+@keyframes mover {
 0% {
     transform: translateY(0);
 }
